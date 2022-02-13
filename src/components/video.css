@@ -1,0 +1,56 @@
+
+/* 
+homepage video */
+.videoTag{
+    width:100%;
+    margin-top:-29px;
+}
+
+
+#vid-container {
+  width: 100vw;
+  height: auto;
+  background-image: url("https://www.whitetailhabitatconsulting.com/static/ee8e18880072dca2609876a3d52040cb/bc141/tactics.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#vid-container{
+  margin-top:-6%;
+}
+
+#home-video {
+  width: 100%;
+  height: auto;
+  opacity: 0;                /* start faded out */ 
+  transition: opacity 2.9s;    /* css fade in */
+}
+.visible-vid{
+  opacity: 1!important;
+}
+
+/* youtube videos */
+iframe {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 10px;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  
+  #vid-container{
+    margin-top:0;
+  }
+
+    video{
+      padding-top: 87px;
+    }
+}

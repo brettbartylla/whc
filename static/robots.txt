@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.whitetailhabitatconsulting.com/sitemap.xml
+Host: https://www.whitetailhabitatconsulting.com

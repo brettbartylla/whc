@@ -1,0 +1,2 @@
+homepage-video-compressed-no-sound.mp4 filter=lfs diff=lfs merge=lfs -text
+.mp4 filter=lfs diff=lfs merge=lfs -text

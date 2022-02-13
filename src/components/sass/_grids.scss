@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+// //landing page grid
+.Grid--gallery {
+  & div:first-of-type{
+    display: grid;
+    row-gap: 25px;
+    position: relative;
+  }
+  & .gatsby-image-wrapper {
+    width:auto;
+    height:400px;
+  }
+}
+@media (min-width: $media-lg) {
+  .Grid--gallery {
+    & div:first-of-type{
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 25px;
+    }
+  }
+}
